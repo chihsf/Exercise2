@@ -6,15 +6,14 @@ BLACK&WHITE
 The font size here is set to 62.5% so that 1em=10px.This makes adjusting our typography a little easier
 */
 
-head {
+#header {
     background-image: url("image\tokyo.jpg");
     background-position:top;
     background-repeat: repeat-x;
     margin-left:80px;
     margin-right:80px;
+}
 
+#main {
 
-
-
-    
 }
