@@ -12,7 +12,7 @@ font-size: 12em;
 }
 
 #main {
-    background-image: url("image\tokyo.jpg");
+    background-image: url("image/tokyo.jpg");
     background-position:top;
     background-repeat: repeat-x;
     margin-left:80px;
