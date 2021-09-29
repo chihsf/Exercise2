@@ -5,7 +5,11 @@ BLACK&WHITE
 /*
 The font size here is set to 62.5% so that 1em=10px.This makes adjusting our typography a little easier
 */
+#metamorph {
+color: #fff ;
+font-size: 12em;
 
+}
 #logo {
     background-image: url("image\tokyo.jpg");
     background-position:top;
@@ -14,3 +18,6 @@ The font size here is set to 62.5% so that 1em=10px.This makes adjusting our typ
     margin-right:80px;
 }
 
+#content {
+	float: right;
+}
