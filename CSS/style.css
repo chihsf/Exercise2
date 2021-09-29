@@ -10,7 +10,8 @@ color: #fff ;
 font-size: 12em;
 
 }
-#logo {
+
+#main {
     background-image: url("image\tokyo.jpg");
     background-position:top;
     background-repeat: repeat-x;
