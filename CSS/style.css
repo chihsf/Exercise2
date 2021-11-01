@@ -13,28 +13,39 @@ body {
 	font-size: 62.5%;
 }
 
-#metamorph {
-color: #fff ;
-font-size: 1em;
-padding: 20px;
-
-}
-
 #header{
-    margin: 0 auto;
+    margin:0;
+    
+   
 }
 
 #black {
     color:black;
     font-size: 1.5em;
-    padding: 20px;
+   position: absolute;
+   top: 5px;
+   left: 460px;
+    text-decoration: none;
 }
 
 #white{
     color: #fff;
     font-size: 1.5em;
-    
+    text-decoration: none;
+    position: absolute;
+    top: 5px;
+   left: 600px;
 }
+
+#metamorph {
+    color: #fff ;
+    font-size: 1em;
+    padding: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+   left: 440px;
+    }
 
 #fonthref{
 color: black;
@@ -45,18 +56,47 @@ color: black;
     float: left;
 }
 
-#menu {
-    margin: 0 auto;
-    padding: 5px;
-    font-size: 1.4em;
+aside h1{
+    height:30px;
+    border:5px #000;
+    background-color: #270AD2;
+    background-image: linear-gradient(#000,#ddd);
+    border-radius: 2px;
+    margin: 20px 0 20px 0;
+    padding:10px 0px 0px 0px;
     text-align:center;
-    background-color:#000 ;
-    width:800px;
-    height:25px;
-    outline-color:#fff;
-    outline-style: solid;
+    color:#fff;
 }
 
+ul {
+    list-style-type: none;
+    margin:5px 0px;
+    padding: 20px 30px;
+    overflow: hidden;
+    text-align:center;
+    background-color: #270AD2;
+    background-image:linear-gradient(#ddd,#000); 
+  }
+  
+  li {display:inline;
+    font-size: 15px;
+    
+    }
+  
+  li a {text-align: center;
+    position: relative;
+    height:40px;
+    color: white;
+    
+    margin: 20px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    background-image: linear-gradient(#000,#ddd)
+  }
+  
+  
 h1, h2, p, ul, li {
 	margin: 0;
 	padding: 0;
@@ -86,9 +126,13 @@ the layout
 	font-size: 1.6em;
 }
 
+article section{
+    margin:15px 0px;
+}
 
 #right{
     float: right;
+    margin:15px 0px;
 }
 
 #footer {
@@ -97,5 +141,10 @@ the layout
 	padding: 10px;
 	text-align: center;
     color: #fff;
+
+}
+
+#footer1 {
+    display: inline
 
 }
